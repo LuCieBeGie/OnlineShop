@@ -1,0 +1,131 @@
+
+*{
+    margin: 0;
+    padding: 50;
+}
+@keyframes planet{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.home{
+    background-image:url(https://wallpaperaccess.com/full/741557.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 120vh;
+}
+.center{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+#sun{
+/*	background: red;*/
+    width: 200px;
+    height: 200px;
+    animation: planet 50s infinite linear;
+}
+#sun img{
+    width: 100%;
+}
+#mercury{
+    width: 300px;
+    height: 100px;
+    animation-name: planet;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+#mercury img{
+    width: 5%;
+}
+#venus{
+    width: 350px;
+    height: 100px;
+    /*border: 1px solid red;*/
+    animation: planet 6.5s infinite linear;
+}
+#venus img{
+    width: 4%;
+
+}
+#earth{
+    width: 400px;
+    height: 100px;
+    /*border: 1px solid red;*/
+    animation: planet 7s infinite linear;
+    position: absolute;
+}
+#earth img{
+    width: 6%;
+}
+#moon{
+    width: 50px;
+    height: 50px;
+    animation: planet 8s infinite linear;
+    border-radius: 50%;
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    right: -15px;
+    bottom: -15px;
+}
+#moon img{
+    width: 30%;
+    animation: planet 8s infinite linear;
+}
+#mars{
+    width: 450px;
+    height: 100px;
+    animation: planet 14s infinite linear;
+}
+#mars img{
+    width: 6%;
+    animation: planet 14s infinite linear;
+}
+#jupiter{
+    width: 550px;
+    height: 100px;
+    animation: planet 84s infinite linear;
+}
+#jupiter img{
+    width: 10%;
+    animation: planet 84s infinite linear;
+}
+#saturn{
+    width: 700px;
+    height: 100px;
+    animation: planet 203s infinite linear;
+}
+#saturn img{
+    width: 9%;
+    animation: planet 203s infinite linear;
+}
+#uranus{
+    width: 800px;
+    height: 100px;
+    animation: planet 588s infinite linear;
+}
+#uranus img{
+    width: 6%;
+    animation: planet 588s infinite linear;
+}
+#neptun{
+    width: 950px;
+    height: 100px;
+    animation: planet 1932s infinite linear;
+}
+#neptun img{
+    width: 6%;
+    animation: planet 1932s infinite linear;
+}
+

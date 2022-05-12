@@ -1,0 +1,38 @@
+.main-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    flex-wrap: wrap;
+    /* background-color: rgb(255, 191, 200); */
+    
+}
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back {
+    background-color: rgb(255, 191, 200, 0.5);
+    background-size: cover;
+    height: 100vh;
+}
+
+.main_children {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    height: 200px;
+    border: 2px solid pink;
+    border-radius: 5%;
+}
+
+.item_img {
+    width: 100px;
+    height: 100px;
+}
+

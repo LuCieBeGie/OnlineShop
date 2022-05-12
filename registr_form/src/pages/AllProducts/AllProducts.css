@@ -1,0 +1,20 @@
+.main-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    flex-wrap: wrap;
+    background-color: rgb(255, 199, 227);
+}
+
+.main_children {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%; 
+    height: 300px;
+    border: 2px solid pink;
+    border-radius: 5%;
+}
